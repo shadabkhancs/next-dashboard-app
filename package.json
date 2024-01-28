@@ -9,16 +9,19 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "chart.js": "^2.9.4",
+    "next": "14.1.0",
     "react": "^18",
     "react-dom": "^18",
-    "next": "14.1.0"
+    "simple-datatables": "^7.1.2"
   },
   "devDependencies": {
-    "typescript": "^5",
+    "@types/chart.js": "^2.9.41",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "eslint": "^8",
-    "eslint-config-next": "14.1.0"
+    "eslint-config-next": "14.1.0",
+    "typescript": "^5"
   }
 }
