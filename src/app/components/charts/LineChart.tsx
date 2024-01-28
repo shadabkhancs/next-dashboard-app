@@ -39,7 +39,7 @@ function LineChart({ width, height }: LineChartProps) {
                 scales: {
                     xAxes: [{
                         time: {
-                            unit: 'date'
+                            unit: 'date' as any
                         },
                         gridLines: {
                             display: false

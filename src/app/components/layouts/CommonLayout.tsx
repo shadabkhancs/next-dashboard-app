@@ -114,11 +114,26 @@ function CommonLayout({ children }: any) {
                         </div>
                     </nav>
                 </div>
+                <div id="layoutSidenav_content">
 
-                {/*  Page-specific content */}
-                {children}
+                    {/*  Page-specific content */}
+                    {children}
 
+                    <footer className="py-4 bg-light mt-auto">
+                        <div className="container-fluid px-4">
+                            <div className="d-flex align-items-center justify-content-between small">
+                                <div className="text-muted">Made with love by: SHADAB</div>
+                                <div>
+                                    <a href="#">Privacy Policy</a>
+                                    ·
+                                    <a href="#">Terms &amp; Conditions</a>
+                                </div>
+                            </div>
+                        </div>
+                    </footer>
+                </div>
             </div>
+
         </>
 
     )
